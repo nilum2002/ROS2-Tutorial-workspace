@@ -1,0 +1,10 @@
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/uninstall.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/Nilums_pkg_uninstall.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/Nilums_Node.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/test.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/edit_cache.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/rebuild_cache.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/list_install_components.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/install.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/install/local.dir
+/home/nilum-sachithya/ros2_ws/build/Nilums_pkg/CMakeFiles/install/strip.dir

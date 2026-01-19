@@ -1,0 +1,10 @@
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/uninstall.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/Testpkg_uninstall.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/testNode.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/test.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/edit_cache.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/rebuild_cache.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/list_install_components.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/install.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/install/local.dir
+/home/nilum-sachithya/ros2_ws/build/Testpkg/CMakeFiles/install/strip.dir

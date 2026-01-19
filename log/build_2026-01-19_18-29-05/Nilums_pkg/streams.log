@@ -1,0 +1,8 @@
+[0.006s] Invoking command in '/home/nilum-sachithya/ros2_ws/build/Nilums_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/build/Nilums_pkg -- -j16 -l16
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/Nilums_Node.dir/src/Nilums_Node.cpp.o[0m
+[0.041s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/nilum-sachithya/ros2_ws/src/Nilums_pkg/src/Nilums_Node.cpp: No such file or directory
+[0.041s] compilation terminated.
+[0.042s] gmake[2]: *** [CMakeFiles/Nilums_Node.dir/build.make:76: CMakeFiles/Nilums_Node.dir/src/Nilums_Node.cpp.o] Error 1
+[0.042s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Nilums_Node.dir/all] Error 2
+[0.042s] gmake: *** [Makefile:146: all] Error 2
+[0.045s] Invoked command in '/home/nilum-sachithya/ros2_ws/build/Nilums_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/build/Nilums_pkg -- -j16 -l16

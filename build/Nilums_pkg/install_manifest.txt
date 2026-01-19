@@ -1,0 +1,16 @@
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/lib/Nilums_pkg/Nilums_Node
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/ament_index/resource_index/package_run_dependencies/Nilums_pkg
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/ament_index/resource_index/parent_prefix_path/Nilums_pkg
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/environment/ament_prefix_path.sh
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/environment/ament_prefix_path.dsv
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/environment/path.sh
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/environment/path.dsv
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/local_setup.bash
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/local_setup.sh
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/local_setup.zsh
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/local_setup.dsv
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/package.dsv
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/ament_index/resource_index/packages/Nilums_pkg
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/cmake/Nilums_pkgConfig.cmake
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/cmake/Nilums_pkgConfig-version.cmake
+/home/nilum-sachithya/ros2_ws/install/Nilums_pkg/share/Nilums_pkg/package.xml

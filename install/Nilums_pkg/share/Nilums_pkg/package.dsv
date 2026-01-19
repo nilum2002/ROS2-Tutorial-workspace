@@ -1,0 +1,8 @@
+source;share/Nilums_pkg/hook/cmake_prefix_path.ps1
+source;share/Nilums_pkg/hook/cmake_prefix_path.dsv
+source;share/Nilums_pkg/hook/cmake_prefix_path.sh
+source;share/Nilums_pkg/local_setup.bash
+source;share/Nilums_pkg/local_setup.dsv
+source;share/Nilums_pkg/local_setup.ps1
+source;share/Nilums_pkg/local_setup.sh
+source;share/Nilums_pkg/local_setup.zsh

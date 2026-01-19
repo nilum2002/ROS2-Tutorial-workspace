@@ -1,0 +1,52 @@
+[0.005s] Invoking command in '/home/nilum-sachithya/ros2_ws/build/Testpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/Testpkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/Testpkg
+[0.041s] -- The C compiler identification is GNU 13.3.0
+[0.086s] -- The CXX compiler identification is GNU 13.3.0
+[0.095s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.351s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.421s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.471s] WARNING: Package name "Testpkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.491s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.491s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nilum-sachithya/ros2_ws/src/Testpkg/include>
+[0.491s] -- Configured cppcheck exclude dirs and/or files: 
+[0.491s] -- Added test 'lint_cmake' to check CMake code style
+[0.492s] -- Added test 'uncrustify' to check C / C++ code style
+[0.492s] -- Configured uncrustify additional arguments: 
+[0.493s] -- Added test 'xmllint' to check XML markup files
+[0.494s] -- Configuring done (0.5s)
+[0.498s] -- Generating done (0.0s)
+[0.500s] -- Build files have been written to: /home/nilum-sachithya/ros2_ws/build/Testpkg
+[0.504s] Invoked command in '/home/nilum-sachithya/ros2_ws/build/Testpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/Testpkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/Testpkg
+[0.505s] Invoking command in '/home/nilum-sachithya/ros2_ws/build/Testpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/build/Testpkg -- -j16 -l16
+[0.535s] [ 50%] [32mBuilding CXX object CMakeFiles/testNode.dir/src/testNode.cpp.o[0m
+[0.554s] [100%] [32m[1mLinking CXX executable testNode[0m
+[0.582s] [100%] Built target testNode
+[0.590s] Invoked command in '/home/nilum-sachithya/ros2_ws/build/Testpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/build/Testpkg -- -j16 -l16
+[0.595s] Invoking command in '/home/nilum-sachithya/ros2_ws/build/Testpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nilum-sachithya/ros2_ws/build/Testpkg
+[0.600s] -- Install configuration: ""
+[0.600s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/lib/Testpkg/testNode
+[0.600s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/ament_index/resource_index/package_run_dependencies/Testpkg
+[0.600s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/ament_index/resource_index/parent_prefix_path/Testpkg
+[0.600s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/environment/ament_prefix_path.sh
+[0.600s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/environment/ament_prefix_path.dsv
+[0.600s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/environment/path.sh
+[0.600s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/environment/path.dsv
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/local_setup.bash
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/local_setup.sh
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/local_setup.zsh
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/local_setup.dsv
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/package.dsv
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/ament_index/resource_index/packages/Testpkg
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/cmake/TestpkgConfig.cmake
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/cmake/TestpkgConfig-version.cmake
+[0.601s] -- Installing: /home/nilum-sachithya/ros2_ws/install/Testpkg/share/Testpkg/package.xml
+[0.602s] Invoked command in '/home/nilum-sachithya/ros2_ws/build/Testpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nilum-sachithya/ros2_ws/build/Testpkg
