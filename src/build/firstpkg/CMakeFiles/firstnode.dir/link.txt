@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/firstnode.dir/src/firstnode.cpp.o -o firstnode 

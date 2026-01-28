@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (-) JobUnselected: {'identifier': 'testnode'}
+[0.000625] (newp) JobQueued: {'identifier': 'newp', 'dependencies': OrderedDict()}
+[0.000660] (newp) JobStarted: {'identifier': 'newp'}
+[0.009190] (newp) JobProgress: {'identifier': 'newp', 'progress': 'cmake'}
+[0.009775] (newp) Command: {'cmd': ['/usr/bin/cmake', '/home/nilum-sachithya/ros2_ws/src/newp', '-DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/newp'], 'cwd': '/home/nilum-sachithya/ros2_ws/src/build/newp', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'USER': 'nilum-sachithya', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nilum-sachithya', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nilum-sachithya/ros2_ws', 'TERM_PROGRAM_VERSION': '1.108.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3301', 'BUNDLED_DEBUGPY_PATH': '/home/nilum-sachithya/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/nilum-sachithya/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nilum-sachithya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nilum-sachithya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/home/nilum-sachithya/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nilum-sachithya/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/opt/ros/jazzy/bin:/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nilum-sachithya/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:@/tmp/.ICE-unix/3075,unix/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:/tmp/.ICE-unix/3075', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f594428f_d805_4727_b27f_ab6bbbef30fa', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nilum-sachithya/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-54842b73d7fc36e9.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/nilum-sachithya/.config/Code/User/workspaceStorage/c1ad004a211b93101e481eb135db42d9/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXQKJ3', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bc5f4ba937.sock', 'GNOME_TERMINAL_SERVICE': ':1.101', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nilum-sachithya/ros2_ws/src/build/newp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.078628] (newp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099713] (-) TimerEvent: {}
+[0.147006] (newp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.166779] (newp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199829] (-) TimerEvent: {}
+[0.269527] (newp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281171] (newp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.281506] (newp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.282081] (newp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.292663] (newp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299984] (-) TimerEvent: {}
+[0.400297] (-) TimerEvent: {}
+[0.406667] (newp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.418719] (newp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.419039] (newp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.419752] (newp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.422847] (newp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500383] (-) TimerEvent: {}
+[0.600750] (-) TimerEvent: {}
+[0.607909] (newp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700932] (-) TimerEvent: {}
+[0.737766] (newp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.801110] (-) TimerEvent: {}
+[0.873708] (newp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.873987] (newp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nilum-sachithya/ros2_ws/src/newp/include>\n'}
+[0.874099] (newp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.875110] (newp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.876221] (newp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.876404] (newp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.876963] (newp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.878573] (newp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (add_executable):\n'}
+[0.878819] (newp) StderrLine: {'line': b'  The target name "test" is reserved when CTest testing is enabled.\n'}
+[0.878911] (newp) StderrLine: {'line': b'\n'}
+[0.878992] (newp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.879071] (newp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.884961] (newp) CommandEnded: {'returncode': 1}
+[0.901258] (-) TimerEvent: {}
+[0.907989] (newp) JobEnded: {'identifier': 'newp', 'rc': 1}
+[0.918720] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/lib/firstpkg/firstnode
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/ament_index/resource_index/package_run_dependencies/firstpkg
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/ament_index/resource_index/parent_prefix_path/firstpkg
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.sh
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.dsv
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/path.sh
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/path.dsv
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.bash
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.sh
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.zsh
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.dsv
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/package.dsv
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/ament_index/resource_index/packages/firstpkg
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig.cmake
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig-version.cmake
+/home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/package.xml

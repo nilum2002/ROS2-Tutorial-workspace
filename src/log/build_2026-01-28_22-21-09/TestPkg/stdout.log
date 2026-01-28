@@ -1,0 +1,18 @@
+[100%] Built target testNode
+-- Install configuration: ""
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/lib/TestPkg/testNode
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/ament_index/resource_index/package_run_dependencies/TestPkg
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/ament_index/resource_index/parent_prefix_path/TestPkg
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/path.sh
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/path.dsv
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.bash
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.sh
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.zsh
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.dsv
+-- Installing: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/package.dsv
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/ament_index/resource_index/packages/TestPkg
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/cmake/TestPkgConfig.cmake
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/cmake/TestPkgConfig-version.cmake
+-- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/package.xml

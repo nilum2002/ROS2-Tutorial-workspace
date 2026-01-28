@@ -1,0 +1,51 @@
+[0.011s] Invoking command in '/home/nilum-sachithya/ros2_ws/src/build/firstpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/firstpkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/firstpkg
+[0.076s] -- The C compiler identification is GNU 13.3.0
+[0.147s] -- The CXX compiler identification is GNU 13.3.0
+[0.165s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.418s] -- Detecting CXX compile features
+[0.418s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.601s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.726s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.859s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nilum-sachithya/ros2_ws/src/firstpkg/include>
+[0.859s] -- Configured cppcheck exclude dirs and/or files: 
+[0.860s] -- Added test 'lint_cmake' to check CMake code style
+[0.861s] -- Added test 'uncrustify' to check C / C++ code style
+[0.861s] -- Configured uncrustify additional arguments: 
+[0.862s] -- Added test 'xmllint' to check XML markup files
+[0.863s] -- Configuring done (0.8s)
+[0.868s] -- Generating done (0.0s)
+[0.871s] -- Build files have been written to: /home/nilum-sachithya/ros2_ws/src/build/firstpkg
+[0.878s] Invoked command in '/home/nilum-sachithya/ros2_ws/src/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/firstpkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/firstpkg
+[0.878s] Invoking command in '/home/nilum-sachithya/ros2_ws/src/build/firstpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/src/build/firstpkg -- -j16 -l16
+[0.933s] [ 50%] [32mBuilding CXX object CMakeFiles/firstnode.dir/src/firstnode.cpp.o[0m
+[0.966s] [100%] [32m[1mLinking CXX executable firstnode[0m
+[1.022s] [100%] Built target firstnode
+[1.035s] Invoked command in '/home/nilum-sachithya/ros2_ws/src/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/src/build/firstpkg -- -j16 -l16
+[1.046s] Invoking command in '/home/nilum-sachithya/ros2_ws/src/build/firstpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nilum-sachithya/ros2_ws/src/build/firstpkg
+[1.054s] -- Install configuration: ""
+[1.054s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/lib/firstpkg/firstnode
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/ament_index/resource_index/package_run_dependencies/firstpkg
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/ament_index/resource_index/parent_prefix_path/firstpkg
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.sh
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.dsv
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/path.sh
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/environment/path.dsv
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.bash
+[1.055s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.sh
+[1.056s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.zsh
+[1.056s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/local_setup.dsv
+[1.056s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/package.dsv
+[1.056s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/ament_index/resource_index/packages/firstpkg
+[1.056s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig.cmake
+[1.056s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig-version.cmake
+[1.056s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/firstpkg/share/firstpkg/package.xml
+[1.058s] Invoked command in '/home/nilum-sachithya/ros2_ws/src/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nilum-sachithya/ros2_ws/src/build/firstpkg

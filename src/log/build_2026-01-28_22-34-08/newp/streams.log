@@ -1,0 +1,16 @@
+[0.011s] Invoking command in '/home/nilum-sachithya/ros2_ws/src/build/newp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/newp -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/newp
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.305s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.430s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.430s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nilum-sachithya/ros2_ws/src/newp/include>
+[0.430s] -- Configured cppcheck exclude dirs and/or files: 
+[0.431s] -- Added test 'lint_cmake' to check CMake code style
+[0.432s] -- Added test 'uncrustify' to check C / C++ code style
+[0.432s] -- Configured uncrustify additional arguments: 
+[0.432s] -- Added test 'xmllint' to check XML markup files
+[0.433s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.433s]   The target name "test" is reserved when CTest testing is enabled.
+[0.433s] 
+[0.433s] [0m
+[0.433s] -- Configuring incomplete, errors occurred!
+[0.438s] Invoked command in '/home/nilum-sachithya/ros2_ws/src/build/newp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/newp -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/newp

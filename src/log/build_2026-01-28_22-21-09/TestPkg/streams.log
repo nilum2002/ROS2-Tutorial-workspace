@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/nilum-sachithya/ros2_ws/src/build/TestPkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/src/build/TestPkg -- -j16 -l16
+[0.066s] [100%] Built target testNode
+[0.079s] Invoked command in '/home/nilum-sachithya/ros2_ws/src/build/TestPkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nilum-sachithya/ros2_ws/src/build/TestPkg -- -j16 -l16
+[0.089s] Invoking command in '/home/nilum-sachithya/ros2_ws/src/build/TestPkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nilum-sachithya/ros2_ws/src/build/TestPkg
+[0.097s] -- Install configuration: ""
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/lib/TestPkg/testNode
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/ament_index/resource_index/package_run_dependencies/TestPkg
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/ament_index/resource_index/parent_prefix_path/TestPkg
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/ament_prefix_path.sh
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/ament_prefix_path.dsv
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/path.sh
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/environment/path.dsv
+[0.098s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.bash
+[0.099s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.sh
+[0.099s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.zsh
+[0.099s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/local_setup.dsv
+[0.099s] -- Installing: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/package.dsv
+[0.099s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/ament_index/resource_index/packages/TestPkg
+[0.099s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/cmake/TestPkgConfig.cmake
+[0.099s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/cmake/TestPkgConfig-version.cmake
+[0.099s] -- Up-to-date: /home/nilum-sachithya/ros2_ws/src/install/TestPkg/share/TestPkg/package.xml
+[0.100s] Invoked command in '/home/nilum-sachithya/ros2_ws/src/build/TestPkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nilum-sachithya/ros2_ws/src/build/TestPkg

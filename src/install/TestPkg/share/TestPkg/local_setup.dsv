@@ -1,0 +1,2 @@
+source;share/TestPkg/environment/ament_prefix_path.sh
+source;share/TestPkg/environment/path.sh
