@@ -128,3 +128,40 @@ Run the package:
 
     ```
 
+2. Write the subscriber node 
+
+<br> 
+
+Return to the "ros2_ws/src/mypkg/src" to create the subscriber node 
+<br>
+```
+wget -O subscriber_lambda_function.cpp https://raw.githubusercontent.com/ros2/examples/jazzy/rclcpp/topics/minimal_subscriber/lambda.cpp
+
+```
+
+<br>
+
+Reopen CMakeLists.txt and add the executable and target for the subscriber node below the publisher’s entries.
+
+<br>
+
+```
+    add_executable(listener src/subscriber_lambda_function.cpp)
+    ament_target_dependencies(listener rclcpp std_msgs)
+
+    install(TARGETS
+    talker
+    listener
+    DESTINATION lib/${PROJECT_NAME})
+```
+
+## Build and Run 
+
+<br>
+
+go to the root and install the dependancies 
+
+```
+rosdep install -i --from-path src --rosdistro jazzy -y
+```
+
