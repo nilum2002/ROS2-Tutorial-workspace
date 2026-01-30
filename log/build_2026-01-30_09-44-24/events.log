@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000772] (firstpkg) JobQueued: {'identifier': 'firstpkg', 'dependencies': OrderedDict()}
+[0.000830] (newp) JobQueued: {'identifier': 'newp', 'dependencies': OrderedDict()}
+[0.000854] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000874] (firstpkg) JobStarted: {'identifier': 'firstpkg'}
+[0.009489] (newp) JobStarted: {'identifier': 'newp'}
+[0.013531] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.019118] (firstpkg) JobProgress: {'identifier': 'firstpkg', 'progress': 'cmake'}
+[0.019739] (firstpkg) Command: {'cmd': ['/usr/bin/cmake', '/home/nilum-sachithya/ros2_ws/src/firstpkg', '-DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/firstpkg'], 'cwd': '/home/nilum-sachithya/ros2_ws/build/firstpkg', 'env': OrderedDict({'USER': 'nilum-sachithya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nilum-sachithya', 'OLDPWD': '/home/nilum-sachithya/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3239', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/nilum-sachithya/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nilum-sachithya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nilum-sachithya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/opt/ros/jazzy/bin:/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:@/tmp/.ICE-unix/2971,unix/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:/tmp/.ICE-unix/2971', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/739daf2c_5e3a_4451_b134_a62d87994900', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z1WHJ3', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nilum-sachithya/ros2_ws/build/firstpkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.022365] (newp) JobProgress: {'identifier': 'newp', 'progress': 'cmake'}
+[0.022973] (newp) Command: {'cmd': ['/usr/bin/cmake', '/home/nilum-sachithya/ros2_ws/src/newp', '-DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/newp'], 'cwd': '/home/nilum-sachithya/ros2_ws/build/newp', 'env': OrderedDict({'USER': 'nilum-sachithya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nilum-sachithya', 'OLDPWD': '/home/nilum-sachithya/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3239', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/nilum-sachithya/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nilum-sachithya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nilum-sachithya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/opt/ros/jazzy/bin:/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:@/tmp/.ICE-unix/2971,unix/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:/tmp/.ICE-unix/2971', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/739daf2c_5e3a_4451_b134_a62d87994900', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z1WHJ3', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nilum-sachithya/ros2_ws/build/newp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.025921] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.027151] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/nilum-sachithya/ros2_ws/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/turtlesim'], 'cwd': '/home/nilum-sachithya/ros2_ws/build/turtlesim', 'env': OrderedDict({'USER': 'nilum-sachithya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nilum-sachithya', 'OLDPWD': '/home/nilum-sachithya/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3239', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/nilum-sachithya/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nilum-sachithya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nilum-sachithya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/opt/ros/jazzy/bin:/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:@/tmp/.ICE-unix/2971,unix/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:/tmp/.ICE-unix/2971', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/739daf2c_5e3a_4451_b134_a62d87994900', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z1WHJ3', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nilum-sachithya/ros2_ws/build/turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.046841] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.084342] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099581] (-) TimerEvent: {}
+[0.117112] (newp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.124507] (firstpkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.197491] (turtlesim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.199640] (-) TimerEvent: {}
+[0.212898] (firstpkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.213826] (newp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.218937] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)\n'}
+[0.220500] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.233729] (firstpkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.234136] (newp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.272030] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.286536] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.299753] (-) TimerEvent: {}
+[0.305170] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.326385] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.336663] (newp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.336867] (firstpkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.348690] (firstpkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.349152] (firstpkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.349807] (firstpkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.357862] (newp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.358281] (newp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.359205] (newp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.360493] (firstpkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.370288] (newp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399874] (-) TimerEvent: {}
+[0.415090] (turtlesim) StdoutLine: {'line': b'-- Found rcl_interfaces: 2.0.3 (/opt/ros/jazzy/share/rcl_interfaces/cmake)\n'}
+[0.470094] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.472663] (firstpkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.482808] (newp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.485864] (firstpkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.486228] (firstpkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.486838] (firstpkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.491826] (firstpkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.499949] (-) TimerEvent: {}
+[0.501660] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.503790] (newp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.504192] (newp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.505270] (newp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.505711] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.509839] (newp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600071] (-) TimerEvent: {}
+[0.610546] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.675307] (firstpkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700242] (-) TimerEvent: {}
+[0.701473] (newp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.704911] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.766053] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.779910] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.783748] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[0.800370] (-) TimerEvent: {}
+[0.803964] (firstpkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.832860] (newp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.900515] (-) TimerEvent: {}
+[0.942456] (firstpkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.942726] (firstpkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nilum-sachithya/ros2_ws/src/firstpkg/include>\n'}
+[0.942821] (firstpkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.943924] (firstpkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.945429] (firstpkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.945555] (firstpkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.946484] (firstpkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.948703] (firstpkg) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.953820] (firstpkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.956222] (firstpkg) StdoutLine: {'line': b'-- Build files have been written to: /home/nilum-sachithya/ros2_ws/build/firstpkg\n'}
+[0.961795] (firstpkg) CommandEnded: {'returncode': 0}
+[0.962369] (firstpkg) JobProgress: {'identifier': 'firstpkg', 'progress': 'build'}
+[0.963286] (firstpkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nilum-sachithya/ros2_ws/build/firstpkg', '--', '-j16', '-l16'], 'cwd': '/home/nilum-sachithya/ros2_ws/build/firstpkg', 'env': OrderedDict({'USER': 'nilum-sachithya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nilum-sachithya', 'OLDPWD': '/home/nilum-sachithya/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3239', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/nilum-sachithya/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nilum-sachithya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nilum-sachithya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/opt/ros/jazzy/bin:/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:@/tmp/.ICE-unix/2971,unix/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:/tmp/.ICE-unix/2971', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/739daf2c_5e3a_4451_b134_a62d87994900', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z1WHJ3', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nilum-sachithya/ros2_ws/build/firstpkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.965705] (newp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.966010] (newp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nilum-sachithya/ros2_ws/src/newp/include>\n'}
+[0.966203] (newp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.967528] (newp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.969397] (newp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.969607] (newp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.970473] (newp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.972118] (newp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (add_executable):\n'}
+[0.972252] (newp) StderrLine: {'line': b'  The target name "test" is reserved when CTest testing is enabled.\n'}
+[0.972340] (newp) StderrLine: {'line': b'\n'}
+[0.972421] (newp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.972505] (newp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.978164] (newp) CommandEnded: {'returncode': 1}
+[1.000695] (-) TimerEvent: {}
+[1.002902] (newp) JobEnded: {'identifier': 'newp', 'rc': 1}
+[1.017507] (firstpkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/firstnode.dir/src/firstnode.cpp.o\x1b[0m\n'}
+[1.056104] (firstpkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable firstnode\x1b[0m\n'}
+[1.100802] (-) TimerEvent: {}
+[1.110998] (firstpkg) StdoutLine: {'line': b'[100%] Built target firstnode\n'}
+[1.123605] (firstpkg) JobEnded: {'identifier': 'firstpkg', 'rc': 'SIGINT'}
+[1.200978] (-) TimerEvent: {}
+[1.206703] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.301094] (-) TimerEvent: {}
+[1.401477] (-) TimerEvent: {}
+[1.438834] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501613] (-) TimerEvent: {}
+[1.530747] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.533781] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.601750] (-) TimerEvent: {}
+[1.702109] (-) TimerEvent: {}
+[1.802461] (-) TimerEvent: {}
+[1.902845] (-) TimerEvent: {}
+[1.925694] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.952584] (turtlesim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.969883] (turtlesim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.972234] (turtlesim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.974606] (turtlesim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nilum-sachithya/ros2_ws/ros_tutorials/turtlesim/include\n'}
+[1.974705] (turtlesim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.977640] (turtlesim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.977773] (turtlesim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.978555] (turtlesim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.978661] (turtlesim) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.979520] (turtlesim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.980529] (turtlesim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.983258] (turtlesim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.983375] (turtlesim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.984320] (turtlesim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.990224] (turtlesim) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.002956] (-) TimerEvent: {}
+[2.103263] (-) TimerEvent: {}
+[2.107919] (turtlesim) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.134681] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/nilum-sachithya/ros2_ws/build/turtlesim\n'}
+[2.149825] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[2.151154] (-) EventReactorShutdown: {}
