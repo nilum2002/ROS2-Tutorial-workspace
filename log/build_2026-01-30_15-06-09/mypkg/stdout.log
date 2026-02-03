@@ -1,0 +1,39 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nilum-sachithya/ros2_ws/build/mypkg
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/lib/mypkg/talker
+-- Set non-toolchain portion of runtime path of "/home/nilum-sachithya/ros2_ws/install/mypkg/lib/mypkg/talker" to ""
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/lib/mypkg/listener
+-- Set non-toolchain portion of runtime path of "/home/nilum-sachithya/ros2_ws/install/mypkg/lib/mypkg/listener" to ""
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/ament_index/resource_index/package_run_dependencies/mypkg
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/ament_index/resource_index/parent_prefix_path/mypkg
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.sh
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.dsv
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/environment/path.sh
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/environment/path.dsv
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/local_setup.bash
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/local_setup.sh
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/local_setup.zsh
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/local_setup.dsv
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/package.dsv
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/ament_index/resource_index/packages/mypkg
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig.cmake
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig-version.cmake
+-- Installing: /home/nilum-sachithya/ros2_ws/install/mypkg/share/mypkg/package.xml

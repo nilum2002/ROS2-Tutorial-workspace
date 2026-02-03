@@ -1,0 +1,20 @@
+[0.006s] Invoking command in '/home/nilum-sachithya/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/mypkg
+[0.015s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.150s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.167s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.231s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.319s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.329s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[0.329s]   add_executable cannot create target "talker" because another target with
+[0.329s]   the same name already exists.  The existing target is an executable created
+[0.330s]   in source directory "/home/nilum-sachithya/ros2_ws/src/mypkg".  See
+[0.330s]   documentation for policy CMP0002 for more details.
+[0.330s] 
+[0.330s] [0m
+[0.391s] -- Configuring incomplete, errors occurred!
+[0.397s] Invoked command in '/home/nilum-sachithya/ros2_ws/build/mypkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/mypkg

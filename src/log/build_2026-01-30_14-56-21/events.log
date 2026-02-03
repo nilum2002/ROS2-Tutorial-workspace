@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000580] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.009626] (mypkg) JobProgress: {'identifier': 'mypkg', 'progress': 'cmake'}
+[0.010102] (mypkg) Command: {'cmd': ['/usr/bin/cmake', '/home/nilum-sachithya/ros2_ws/src/mypkg/src', '-DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/mypkg'], 'cwd': '/home/nilum-sachithya/ros2_ws/src/build/mypkg', 'env': OrderedDict({'USER': 'nilum-sachithya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nilum-sachithya', 'OLDPWD': '/home/nilum-sachithya/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3239', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/nilum-sachithya/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nilum-sachithya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nilum-sachithya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/opt/ros/jazzy/bin:/home/nilum-sachithya/Desktop/pintos.tar./pint/toolchain/x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:@/tmp/.ICE-unix/2971,unix/nilum-sachithya-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:/tmp/.ICE-unix/2971', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5b79de9d_443b_4767_8a74_feabaae644d8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z1WHJ3', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/mypkg:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nilum-sachithya/ros2_ws/src/build/mypkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nilum-sachithya/ros2_ws/install/turtlesim:/home/nilum-sachithya/ros2_ws/install/mypkg:/home/nilum-sachithya/ros2_ws/install/Testpkg:/home/nilum-sachithya/ros2_ws/install/Nilums_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.077190] (mypkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099771] (-) TimerEvent: {}
+[0.148096] (mypkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.167161] (mypkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199898] (-) TimerEvent: {}
+[0.269302] (mypkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281243] (mypkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.281502] (mypkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.281963] (mypkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.292957] (mypkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300054] (-) TimerEvent: {}
+[0.400445] (-) TimerEvent: {}
+[0.411698] (mypkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.424177] (mypkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.424575] (mypkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.425106] (mypkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.428407] (mypkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500612] (-) TimerEvent: {}
+[0.600958] (-) TimerEvent: {}
+[0.612923] (mypkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.701154] (-) TimerEvent: {}
+[0.743971] (mypkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.793759] (mypkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.801311] (-) TimerEvent: {}
+[0.811275] (mypkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.831720] (mypkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.854780] (mypkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901467] (-) TimerEvent: {}
+[0.955050] (mypkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.958613] (mypkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001652] (-) TimerEvent: {}
+[1.055410] (mypkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.080498] (mypkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.101778] (-) TimerEvent: {}
+[1.110779] (mypkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201908] (-) TimerEvent: {}
+[1.206836] (mypkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.225746] (mypkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (install):\n'}
+[1.226096] (mypkg) StderrLine: {'line': b'  install TARGETS given target "listener" which does not exist.\n'}
+[1.226289] (mypkg) StderrLine: {'line': b'\n'}
+[1.226457] (mypkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.302067] (-) TimerEvent: {}
+[1.347221] (mypkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.359578] (mypkg) CommandEnded: {'returncode': 1}
+[1.382817] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 1}
+[1.393459] (-) EventReactorShutdown: {}

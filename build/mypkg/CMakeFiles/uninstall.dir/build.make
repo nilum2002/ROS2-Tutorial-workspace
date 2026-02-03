@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nilum-sachithya/ros2_ws/mypkg
+CMAKE_SOURCE_DIR = /home/nilum-sachithya/ros2_ws/src/mypkg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/nilum-sachithya/ros2_ws/build/mypkg
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nilum-sachithya/ros2_ws/build/mypkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nilum-sachithya/ros2_ws/mypkg /home/nilum-sachithya/ros2_ws/mypkg /home/nilum-sachithya/ros2_ws/build/mypkg /home/nilum-sachithya/ros2_ws/build/mypkg /home/nilum-sachithya/ros2_ws/build/mypkg/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nilum-sachithya/ros2_ws/build/mypkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nilum-sachithya/ros2_ws/src/mypkg /home/nilum-sachithya/ros2_ws/src/mypkg /home/nilum-sachithya/ros2_ws/build/mypkg /home/nilum-sachithya/ros2_ws/build/mypkg /home/nilum-sachithya/ros2_ws/build/mypkg/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

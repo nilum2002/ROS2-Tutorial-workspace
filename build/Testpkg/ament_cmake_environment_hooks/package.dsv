@@ -1,4 +1,0 @@
-source;share/Testpkg/local_setup.bash
-source;share/Testpkg/local_setup.dsv
-source;share/Testpkg/local_setup.sh
-source;share/Testpkg/local_setup.zsh

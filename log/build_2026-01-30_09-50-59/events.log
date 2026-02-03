@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000341] (-) JobUnselected: {'identifier': 'firstpkg'}
-[0.000502] (-) JobUnselected: {'identifier': 'newp'}
-[0.000526] (-) JobUnselected: {'identifier': 'testpakage'}
-[0.000546] (-) JobUnselected: {'identifier': 'turtlesim'}
-[0.000754] (-) EventReactorShutdown: {}

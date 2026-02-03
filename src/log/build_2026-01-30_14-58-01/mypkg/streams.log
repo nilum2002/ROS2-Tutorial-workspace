@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/home/nilum-sachithya/ros2_ws/src/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/mypkg/src -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/mypkg
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.304s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.339s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.351s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.639s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.656s] [31mCMake Error at CMakeLists.txt:17 (target_include_directories):
+[0.656s]   Cannot specify include directories for target "talker" which is not built
+[0.657s]   by this project.
+[0.657s] 
+[0.657s] [0m
+[0.657s] [31mCMake Error at CMakeLists.txt:20 (target_compile_features):
+[0.657s]   Cannot specify compile features for target "talker" which is not built by
+[0.657s]   this project.
+[0.657s] 
+[0.657s] [0m
+[0.776s] -- Configuring incomplete, errors occurred!
+[0.785s] Invoked command in '/home/nilum-sachithya/ros2_ws/src/build/mypkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/mypkg/src -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/src/install/mypkg

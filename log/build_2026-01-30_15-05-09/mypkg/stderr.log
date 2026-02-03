@@ -1,0 +1,10 @@
+[31mCMake Error at CMakeLists.txt:17 (target_include_directories):
+  Cannot specify include directories for target "talker" which is not built
+  by this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:20 (target_compile_features):
+  Cannot specify compile features for target "talker" which is not built by
+  this project.
+
+[0m

@@ -77,6 +77,17 @@ Run the package:
 
     ros2 run <my_pkg> <my_node>
 
+## ROS2 Node Introduction
+Nodes are intracting eachother using  followings.
+*   **Topics**: For cts data streaming(pub/sub)
+*   **Services**: For quick reset-response interactions 
+*   **Actions**: For long Running tasks with feedbacks 
+*   **Parameters**: For changing configuration during the runtime 
+* Nodes can communicate across processes or different machines 
+* Node connections are stablished through a distributed Discovery process.
+* A single node can simultanieously acts as a publisher, subscriber, server and client.
+![alt text](image-1.png)
+
 ## Publisher and Subscriber in C++ 
 
 1. Write the Publisher Node 
@@ -165,3 +176,9 @@ go to the root and install the dependancies
 rosdep install -i --from-path src --rosdistro jazzy -y
 ```
 
+
+## Run the package and you will see the output like this.
+
+    ![alt text](image.png)
+
+    

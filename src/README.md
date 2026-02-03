@@ -20,7 +20,7 @@ using namespace std::chrono_literals;
 <br>
 
 These following lines represents the node's dependancies have to be added to "package.xml" and "CMakeLists.txt"
-
+<br>
 
 ```
 public:
@@ -45,6 +45,7 @@ The public constructor names the node minimal_publisher and initializes count_ t
 
 <br>
 In the bottom of the class is the declaration of the timer, publisher, and counter fields.
+<br>
 ```
     private:
     rclcpp::TimerBase::SharedPtr timer_;
@@ -54,7 +55,7 @@ In the bottom of the class is the declaration of the timer, publisher, and count
 <br>
 
 Following the MinimalPublisher class is main, where the node actually executes. rclcpp::init initializes ROS 2, and rclcpp::spin starts processing data from the node, including callbacks from the timer.
-
+<br>
 ```
     int main(int argc, char * argv[])
     {
@@ -65,3 +66,31 @@ Following the MinimalPublisher class is main, where the node actually executes. 
     }
 
 ```
+
+## Add dependancies 
+
+open package.xml.<br>
+
+Add a new line after the ament_cmake buildtool dependency and paste the following dependencies corresponding to your node’s include statements:
+<br>
+
+```
+<depend>rclcpp</depend>
+<depend>std_msgs</depend>
+```
+<br>
+This declares the package needs "rclcpp" and "std_msgs" 
+
+
+open CMakelists.txt <br>
+
+Now open the CMakeLists.txt file. Below the existing dependency find_package(ament_cmake REQUIRED), add the lines: 
+<br>
+
+```
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+
+```
+<br>
+

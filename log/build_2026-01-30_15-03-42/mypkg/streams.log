@@ -1,0 +1,38 @@
+[0.010s] Invoking command in '/home/nilum-sachithya/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/mypkg
+[0.076s] -- The C compiler identification is GNU 13.3.0
+[0.146s] -- The CXX compiler identification is GNU 13.3.0
+[0.165s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.609s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.734s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.786s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.802s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.941s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.944s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.038s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.064s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.199s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.218s] [31mCMake Error at CMakeLists.txt:17 (target_include_directories):
+[1.218s]   Cannot specify include directories for target "talker" which is not built
+[1.218s]   by this project.
+[1.218s] 
+[1.219s] [0m
+[1.219s] [31mCMake Error at CMakeLists.txt:20 (target_compile_features):
+[1.219s]   Cannot specify compile features for target "talker" which is not built by
+[1.219s]   this project.
+[1.219s] 
+[1.219s] [0m
+[1.337s] -- Configuring incomplete, errors occurred!
+[1.349s] Invoked command in '/home/nilum-sachithya/ros2_ws/build/mypkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nilum-sachithya/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/nilum-sachithya/ros2_ws/install/mypkg
