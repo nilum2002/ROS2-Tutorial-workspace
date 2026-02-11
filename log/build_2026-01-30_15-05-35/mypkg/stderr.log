@@ -1,7 +1,0 @@
-[31mCMake Error at CMakeLists.txt:20 (add_executable):
-  add_executable cannot create target "talker" because another target with
-  the same name already exists.  The existing target is an executable created
-  in source directory "/home/nilum-sachithya/ros2_ws/src/mypkg".  See
-  documentation for policy CMP0002 for more details.
-
-[0m
