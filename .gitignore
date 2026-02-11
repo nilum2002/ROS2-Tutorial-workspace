@@ -1,0 +1,12 @@
+*build
+*install
+*dist
+*egg-info
+*.egg
+*.egg-info
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*log
