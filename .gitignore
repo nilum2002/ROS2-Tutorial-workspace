@@ -10,3 +10,6 @@
 __pycache__
 *.so
 *log
+*.rc
+*.env
+*.make 
