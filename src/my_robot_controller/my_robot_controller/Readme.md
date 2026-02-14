@@ -327,8 +327,8 @@ How ROS2 Actions works?
 
 There are two nodes.
 
-1. Client Node - Action Client
-2. Service Node - Action Server 
+1. Client Node - Action Client (can be one or more)
+2. Service Node - Action Server (only one)
 
 First Action client sends a **Goal** to the Action server. The the Action server sends a massage wheather the Goal is accepted or rejected. If goal is accepted the Action server process the goal.
 After goal is accepted, the Action client requests results. Then the Action server sends results to the action client.
