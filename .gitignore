@@ -1,5 +1,6 @@
-*build
-*install
+/build/
+/install/
+/log/
 *dist
 *egg-info
 *.egg
@@ -9,7 +10,7 @@
 *.pyd
 __pycache__
 *.so
-*log
 *.rc
 *.env
-*.make 
+*.make
+*.json
