@@ -3,7 +3,7 @@
 
     <!-- Define material colors  -->
     <material name = "grey">
-        <color rgba = "0.7 0.7 0. 1"/>
+        <color rgba = "0.7 0.7 0.1 1"/>
     </material>
 
     <material name="green">
@@ -16,7 +16,7 @@
 
     <!-- links -->
 
-    <link name= "base-footprint"></link>
+    <link name= "base_footprint"></link>
     <link name = "base_link">
         <visual>
             <geometry>
@@ -37,7 +37,7 @@
         </visual>
     </link>
 
-    <link name="rear-right-wheel-link">
+    <link name="rear_right_wheel_link">
         <visual>
             <geometry>
                 <cylinder radius="0.1" length="0.05"/>
@@ -47,7 +47,7 @@
         </visual>
     </link>
 
-    <link name="rear-left-wheel-link">
+    <link name="rear_left_wheel_link">
         <visual>
             <geometry>
                 <cylinder radius="0.1" length="0.05"/>
@@ -57,7 +57,7 @@
         </visual>
     </link>
     
-    <link name="front-caster-wheel">
+    <link name="front_caster_wheel">
         <visual>
             <geometry>
                 <sphere radius="0.05"/>
@@ -69,36 +69,36 @@
     </link>
 
     <!-- Joints  -->
-    <joint name= "base-footprint-joint" type="fixed">
-        <parent link="base_link"/>
-        <child link="base-footprint"/>
+    <joint name= "base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
 
-    <joint name="base-lidar-joint" type="fixed">
+    <joint name="base_lidar_joint" type="fixed">
         <parent link="base_link"/>
         <child link="lidar_link"/>
         <origin xyz="0 0 0.225" rpy="0 0 0"/>
     </joint>
 
-    <joint name="base-rear-right-wheel-joint" type="continuous">
+    <joint name="base_rear_right_wheel_joint" type="continuous">
         <parent link="base_link"/>
-        <child link="rear-right-wheel-link"/>
+        <child link="rear_right_wheel_link"/>
         <origin xyz="0.15 -0.2 0" rpy="0 0 0"/>
         <axis xyz="0 1 0"/>
     </joint>
 
-    <joint name="base-rear-left-wheel-joint" type="continuous">
+    <joint name="base_rear_left_wheel_joint" type="continuous">
         <parent link="base_link"/>
-        <child link="rear-left-wheel-link"/>
+        <child link="rear_left_wheel_link"/>
         <origin xyz="0.15 0.2 0" rpy="0 0 0"/>
         <axis xyz="0 1 0"/>
     </joint>
 
-    <joint name="base-front-caster-wheel-joint" type="continuous">
+    <joint name="base_front_caster_wheel_joint" type="continuous">
         <parent link="base_link"/>
-        <child link="front-caster-wheel"/>
+        <child link="front_caster_wheel"/>
         <origin xyz="-0.15 0 -0.05" rpy="0 0 0"/>
-        <axis xyz="1 1 1"/>
+        <axis xyz="0 0 1"/>
     </joint>
 </robot>

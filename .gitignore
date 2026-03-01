@@ -1,16 +1,17 @@
+# Build outputs
 /build/
 /install/
 /log/
-*dist
-*egg-info
+
+# Python
+__pycache__/
+*.py[cod]
 *.egg
-*.egg-info
-*.pyc
-*.pyo
-*.pyd
-__pycache__
+*.egg-info/
+dist/
 *.so
+
+# Colcon
 *.rc
 *.env
-*.make
-*.json
+*.log
