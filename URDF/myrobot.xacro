@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="my_custom_bot">
+<robot name="my_custom_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <!-- Define material colors  -->
     <material name = "grey">
@@ -25,12 +25,6 @@
             <origin xyz="0 0 0.1" rpy = "0 0 0"/>
             <material name="green"/>
         </visual>
-        <collision>
-            <geometry>
-                <box size="0.6 0.4 0.2"/>
-            </geometry>
-            <origin xyz="0 0 0.1" rpy = "0 0 0"/>
-        </collision>
     </link>
 
     <link name="lidar_link">
@@ -41,15 +35,25 @@
             <origin xyz="0 0 0" rpy = "0 0 0"/>
             <material name="white"/>
         </visual>
-        <collision>
-            <geometry>
-                <box size="0.2 0.2 0.05"/>
-            </geometry>
-            <origin xyz="0 0 0" rpy = "0 0 0"/>
-        </collision>
     </link>
 
-    <link name="rear_right_wheel_link">
+    <xacro:macro name="wheel_link" params="prefix">
+        <link name="${prefix}_wheel_link">
+            <visual>
+                <geometry>
+                    <cylinder radius="0.1" length="0.05"/>
+                </geometry>
+                <origin xyz="0 0 0" rpy = "1.57 0 0"/>
+                <material name="white"/>
+            </visual>
+        </link>
+    </xacro:macro>
+
+    <!-- call the xacro macro to create wheel links -->
+    <xacro:wheel_link prefix="rear_right"/>
+    <xacro:wheel_link prefix="rear_left"/>
+
+    <!-- <link name="rear_right_wheel_link">
         <visual>
             <geometry>
                 <cylinder radius="0.1" length="0.05"/>
@@ -57,12 +61,6 @@
             <origin xyz="0 0 0" rpy = "1.57 0 0"/>
             <material name="white"/>
         </visual>
-        <collision>
-            <geometry>
-                <cylinder radius="0.1" length="0.05"/>
-            </geometry>
-            <origin xyz="0 0 0" rpy = "1.57 0 0"/>
-        </collision>
     </link>
 
     <link name="rear_left_wheel_link">
@@ -73,13 +71,8 @@
             <origin xyz="0 0 0" rpy = "1.57 0 0"/>
             <material name="white"/>
         </visual>
-        <collision>
-            <geometry>
-                <cylinder radius="0.1" length="0.05"/>
-            </geometry>
-            <origin xyz="0 0 0" rpy = "1.57 0 0"/>
-        </collision>
-    </link>
+    </link> -->
+
     
     <link name="front_caster_wheel">
         <visual>
@@ -89,11 +82,7 @@
             <origin xyz="0 0 0" rpy = "0 0 0"/>
             <material name="white"/>
         </visual>
-        <collision>
-            <geometry>
-                <sphere radius="0.05"/>
-            </geometry>
-        </collision>
+
     </link>
 
     <!-- Joints  -->

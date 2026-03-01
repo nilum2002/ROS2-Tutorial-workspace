@@ -40,5 +40,13 @@ source /opt/ros/<ros_dis>/setup.bash
 
 ```
 ros2 run robot_state_publisher robot_state_publisher <path_to_URDF>
+
+# give URDF as a parameter 
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro path/to/urdf)"
 ```
-5. 
+
+
+![alt text](image-1.png)
+
+
+![alt text](image-2.png)
